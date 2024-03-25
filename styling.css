@@ -88,3 +88,9 @@
 #links{
     margin-right: 5%;
 }
+a {
+    margin-left: 20px;
+    margin: 4px;
+    color: black;
+    text-decoration: none;
+}
