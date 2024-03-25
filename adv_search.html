@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styling.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <label>Advanced Search</label>
+                <div id="links">
+                    <a href="index.html">Search</a>
+                    <a href="">Advanced</a>
+                </div>
+            </div>
+            <div class="forms">
+                <form id="search" action="https://www.google.com/search" method="GET" name="f">
+                    <div class="row">
+                        <div class="first_column"><span>Find pages with...</with></span></div>
+                        <div class="search_bar"></div>
+                        <div>To do this in the search box.</div>
+                    </div>
+                    <div class="row">
+                        <div class="first_column"><label>all these words:</label></div>
+                        <div class="search_bar"><input class="text-input" value="" name="as_q" type="text"></div>
+                        <div class="third_column">
+                            <div class="explanation">Type the important words: <span class="example-text">tri-colour rat terrier</span></div>
+                        </div>    
+                        
+                    </div>
+                    <div class="row">
+                        <div class="first_column"><label>this exact word or phrase:</label></div>
+                        <div class="search_bar"><input class="text-input" value="" name="as_epq" type="text"></div>
+                        <div class="third_column">
+                            <div class="explanation">Put exact words in quotes:<span class="example-text"> "rat terrier"</span></div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="first_column"><label>any of these words:</label></div>
+                        <div class="search_bar"><input class="text-input" value="" name="as_oq" type="text"></div>
+                        <div class="third_column">
+                            <div class="explanation">Type OR between all the words you want: <span class="example-text">miniature OR standard</span></div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="first_column"><label>none of these words:</label></div>
+                        <div class="search_bar"><input class="text-input" value="" name="as_eq" type="text"></div>
+                        <div class="third_column">
+                            <div class="explanation">Put a minus sign before words that you don't wnat: <span class="example-text">-rodent, -"Jack Russel"</span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="first_column"><label>numbers ranging from:</label></div>
+                        <div class="search_bar">
+                            <div style="display:table;width:100%">
+                                <div style="display: table-cell;padding-right:16px;">
+                                    <input class="text-input" value="" name="as_nlo" type="text">
+                                </div>
+                                <div style="display:table-cell;width:40px;padding-right:6px;padding-left:6px;text-align:center;font-size:13px;color:#202124">to</div>
+                                <div style="display: table-cell;padding-right:16px;">
+                                    <input class="text-input" value="" name="as_nhi" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third_column">
+                            <div class="explanation">Put two fll stops between the numbers and add a unit of measurement:<span class="example-text">10..35kg, $300..$500, 2010..2011</span></div>
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="row">
+                        <div class="first_column"></div>
+                        <div class="serch_bar">
+                            <input id="search-btn" value="Advanced Search" type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
