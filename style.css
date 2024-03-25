@@ -5,6 +5,7 @@
     font-size: 14px;
     font-family: arial, sans-serif;
     height: fit-content;
+    min-height:100vh;
 
 }
 #links {
