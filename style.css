@@ -27,7 +27,7 @@ a:hover{
     justify-content: center;
     align-items: flex-end;
     font-size: 48px;
-    margin: 0px;
+    margin-top: 12%;
 }
 #search_bar {
     display: flex;
